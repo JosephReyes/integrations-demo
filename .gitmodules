@@ -1,3 +1,6 @@
 [submodule "integrations-demo-app"]
 	path = integrations-demo-app
 	url = https://github.com/JosephReyes/integrations-demo-app.git
+[submodule "integrations-service"]
+	path = integrations-service
+	url = https://github.com/JosephReyes/integrations-service.git
