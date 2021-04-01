@@ -1,0 +1,22 @@
+{
+  "name": "integrations-demo",
+  "version": "1.0.0",
+  "description": "Demo for new integration project",
+  "scripts": {
+    "prettier:check": "prettier -c '**/*'",
+    "lint": "npm run lint:service && npm run lint:app",
+    "lint:service": "cd integrations-service && npm run lint",
+    "lint:app": "cd integrations-demo-app && npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^13.11.0",
+    "eslint": "^7.19.0",
+    "husky": "^4.2.3",
+    "prettier": "^1.19.1",
+    "prettier-plugin-sh": "^0.2.8",
+    "typescript": "^3.8.3"
+  }
+}
